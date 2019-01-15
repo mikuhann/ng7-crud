@@ -15,6 +15,8 @@ import { StudentListComponent } from './student-list/student-list.component';
 // import ngx toastr
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+// ngx pagination
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { ToastrModule } from 'ngx-toastr';
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
